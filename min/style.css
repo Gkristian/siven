@@ -1,0 +1,33 @@
+.siven-slider{
+   position: relative;
+   display: block;
+   box-sizing: border-box;
+   height: 100%;
+   margin: 0 auto;
+   width: 270px;
+}
+.siven-list{
+   position: relative;
+   display: block;
+   overflow: hidden;
+   margin: 0;
+   width: calc(100% - 0px);
+   height: 100%;
+}
+.siven-track{
+   transition: all 1.0s ease 0s;
+   opacity: 1;
+   transform: translate3d(0px, 0px, 0px);
+   height: 100%;
+}
+.siven-item{
+   height: 100%;
+   float: left;
+   min-height: 1px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: block;
+}
+.active-img{
+   display: block;
+}
